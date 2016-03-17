@@ -97,7 +97,7 @@ class BaryCentricMap(object):
         self.x2 = np.array([0.0, 0.0])
         self.x3 = np.array([0.5, np.sqrt(3.0/4.0)])
         self.x4 = np.array([1.0/3.0, 0.0])
-        self.color = cycle(['r', 'g', 'b', 'Chocolate', 'Brown', 'Olive', 'LightSeaGreen', 'YellowGreen'])
+        self.color = cycle(['b', 'g', 'r', 'y', 'Chocolate', 'Brown', 'Olive', 'LightSeaGreen', 'YellowGreen'])
         self.B = np.array([[-2.0, 0.5],[0.0, 2.598076211353316]])
 
     def plot_triangle(self):
